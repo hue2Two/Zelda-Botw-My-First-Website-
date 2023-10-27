@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--linking style sheet--> <link rel ="stylesheet" type="text/css" href="style.css">
+     <!--link favicon img --><link rel="icon" type="image/x-icon" href="favicon.ico"> 
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="zelda_Botw_Pics\botwPic0.jpg" width="100" height="45" alt="navImage">
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="characters.html">characters</a></li>
+                <li><a href="locations.html">locations</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile_view">
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+            <nav class="mobile-nav">
+                <a href="home.html">home</a>
+                <a href="characters.html">characters</a>
+                <a href="locations.html">locations</a>
+                <a href="contact.html">contact</a>
+            </nav>
+        </div>
+    </header><br>
+    <div class="container">
+        <form action="https://formsubmit.co/85656eb08dece43a3a21f7a6245f889f" method="POST">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="email id" required>
+            <input type="text" id="phone" name="phone" placeholder="phone no." required>
+            <textarea id="message" rows="4" name="message" placeholder="Any questions?">
+            </textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
